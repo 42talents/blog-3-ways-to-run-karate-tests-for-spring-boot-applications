@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com._42talents</groupId>
-    <artifactId>demo-spring-boot-karate</artifactId>
+    <artifactId>spring-boot-karate-example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo-spring-boot-karate</name>
-    <description>Starter project for Spring Boot with Karate</description>
+    <name>Spring-Boot Karate Example</name>
+    <description>Example project with Spring Boot and Karate/JUnit as acceptance test tool.</description>
     <properties>
         <java.version>17</java.version>
     </properties>
