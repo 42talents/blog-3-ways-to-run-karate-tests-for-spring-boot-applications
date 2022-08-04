@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Spring Boot Karate Example
+
+logging:
+  level:
+    root: INFO

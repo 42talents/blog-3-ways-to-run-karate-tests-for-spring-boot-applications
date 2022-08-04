@@ -1,10 +1,10 @@
-package com._42talents.starter_spring_karate;
+package com._42talents.spring_boot_karate_example;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StarterSpringKarateApplicationTests {
+class SpringBootKarateExampleApplicationTests {
 
 	@Test
 	void contextLoads() {
