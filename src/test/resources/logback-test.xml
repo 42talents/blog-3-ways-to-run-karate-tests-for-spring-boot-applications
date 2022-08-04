@@ -1,0 +1,5 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="com._42talents" level="DEBUG"/>
+    <logger name="com.intuit.karate" level="DEBUG"/>
+</configuration>
