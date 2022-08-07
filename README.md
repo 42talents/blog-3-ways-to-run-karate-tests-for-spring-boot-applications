@@ -3,10 +3,15 @@
 [![Java CI with Maven](https://github.com/42talents/spring-boot-karate-example/actions/workflows/maven.yml/badge.svg)](https://github.com/42talents/spring-boot-karate-example/actions/workflows/maven.yml)
 
 
-## 3 Ways to run Karate Tests for  Spring-Boot Applications.
+## 3 Ways to run Karate Tests for Spring-Boot Applications.
 
-### What is Karate?
-Karate's slogan is *Test Automation Made Simple*. It is a test framework based on Cucumber to write web application tests quickly. You can use it as an alternative to REST-assured API testing.
+![](alex-knight-2EJCSULRwC8-unsplash.jpg)
+<sub>
+Photo by <a href="https://unsplash.com/@agk42?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Knight</a> on <a href="https://unsplash.com/s/photos/automation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sub>
+
+### What is the Karate Framework?
+Karate's slogan is **Test Automation Made Simple**. It is a test framework based on Cucumber to write web application tests quickly. You can use it as an alternative to REST-assured API testing.
 
 ### Karate Setup within a Spring-Boot Project
 Karate comes as a test dependency. In this example, we use maven.
