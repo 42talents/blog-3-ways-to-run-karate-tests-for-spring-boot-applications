@@ -11,9 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 17
@@ -35,3 +33,16 @@ jobs:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
         heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
         heroku_email: ${{secrets.HEROKU_EMAIL}}
+
+  test-heroku:
+    needs: 'deploy-heroku'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: maven
+      - name: Run acceptance tests with Maven
+        run: mvn -B -Dtest=AllKarateFeaturesWithTestDeployment test --file pom.xml
