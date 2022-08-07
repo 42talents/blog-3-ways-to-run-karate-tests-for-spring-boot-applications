@@ -44,5 +44,5 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-      - name: Run acceptance tests with Maven
-        run: mvn -B -Dtest=AllKarateFeaturesWithTestDeployment test --file pom.xml
+    - name: Run acceptance tests with Maven
+      run: mvn -B -Dtest=AllKarateFeaturesWithTestDeployment test --file pom.xml
