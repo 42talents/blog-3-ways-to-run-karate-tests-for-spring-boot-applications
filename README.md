@@ -148,6 +148,10 @@ During development, I run the feature files directly and do acceptance-test-driv
 I use the JUnit scenario tests in the CI pipeline to prevent bugs.
 To be sure that the deployed application is running as expected, the pipeline executes the "all features test" after a successful deployment.
 
+The complete example source code is available on our [GitHub Repository](https://github.com/42talents/spring-boot-karate-example).
+
+If you are interested to learn more about Karate and Spring Boot, [get in touch and have a look at our training courses!](https://42talents.com/en/training/in-house)
+
 An example application is available at https://github.com/42talents/spring-boot-karate-example.
 
 Happy coding with ❤️ from Bern.
