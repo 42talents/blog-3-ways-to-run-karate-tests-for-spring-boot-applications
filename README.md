@@ -152,6 +152,4 @@ The complete example source code is available on our [GitHub Repository](https:/
 
 If you are interested to learn more about Karate and Spring Boot, [get in touch and have a look at our training courses!](https://42talents.com/en/training/in-house)
 
-An example application is available at https://github.com/42talents/spring-boot-karate-example.
-
 Happy coding with ❤️ from Bern.
