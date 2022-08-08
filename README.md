@@ -25,7 +25,7 @@ Karate comes as a test dependency. In this example, we use maven.
 ```
 
 ### Example Karate Test
-You write Karate tests in Gherkin. We use a BDD style here. The following example shows how to verify that the spring-boot health actuator resource shows "up ".
+You write Karate tests in Gherkin. We use a BDD style here. The following example shows how to verify that the spring-boot health actuator resource shows "up".
 ```gherkin
 Scenario: health resource status is "up"
   Given url baseUrl + '/actuator/health'
@@ -37,14 +37,13 @@ Scenario: health resource status is "up"
 
 ### 1. Execute the karate feature file with IntelliJ IDEA.
 
-You can run the karate feature file directly from the editor in IntelliJ, as shown below.
+You can run the karate feature file directly from the editor in IntelliJ, as shown in the GIF below or use the shortcut to run the current scenario.
 
 ![Execute Karate Feature From Editor](run_karate_feature_1.gif)
 
 You can define variables used in the tests in the test-resource file "karate-config.js". Here we set the variable *baseUrl* depending on the environment. Localhost is our default environment. Karate calls this configuration function for every scenario.
 
 ![Karate Configuration File](karate_config.png)
-
 
 This way, you can run an entire feature or a single scenario. But, this requires the application to be running.
 
